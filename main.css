@@ -1,3 +1,44 @@
 body {
   background-color: #D0D4CA;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+
+#avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: #A7D397;
+  color: #F5EEC8;
+}
+
+.btn:hover, .btn:active {
+  background-color: #555843;
+}
+
+#subtext {
+  color: #618264;
+}
+
+
+.social {
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.fa-brands {
+  color: #8CC0DE;
+}
